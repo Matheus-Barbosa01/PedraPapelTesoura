@@ -27,7 +27,6 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
     }
-
     public void selecionarPedra(View view){
         selecionarGanhador("pedra");
     }
@@ -59,11 +58,8 @@ public class MainActivity extends AppCompatActivity {
                 //System.out.println("o App escolheu tesoura");
             break;
         }
-
-
         return escolhaApp;
     }
-
     private void selecionarGanhador(String escolhaUsuario){
         //System.out.println("Foi escolhido:" + escolhaUsuario);
 
